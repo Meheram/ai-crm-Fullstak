@@ -1,0 +1,36 @@
+
+{
+  "name": "ai-crm-backend",
+  "version": "1.0.0",
+  "description": "A full-stack AI-powered CRM backend built with Node.js, Express, and MongoDB. It provides RESTful APIs for managing leads, contacts, tasks, notes, authentication, sales pipelines, and AI-powered CRM insights.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "crm", 
+    "seas",
+    "ai",
+    "gemini",
+    "express",
+    "mongodb"],
+  "author": "Amir Sultani",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "1.9.0",
+"bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.5",
+    "morgan": "^1.10.0"
+},
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
+
